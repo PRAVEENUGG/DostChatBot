@@ -1,0 +1,745 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "pattern": "[0-9]{5}",
+        "name": "zipcode"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "dit",
+          "dev",
+          "DIT",
+          "dev IT",
+          "development"
+        ],
+        "value": "Development IT"
+      },
+      {
+        "synonyms": [
+          "Procurement",
+          "Finance",
+          "fnP",
+          "f&P",
+          "Finance and Procurement"
+        ],
+        "value": "F&P IT"
+      },
+      {
+        "synonyms": [
+          "Techops IT",
+          "TOQA",
+          "TechOps",
+          "Quality",
+          "techops",
+          "Quality IT",
+          "to & quality it"
+        ],
+        "value": "TO & Quality IT"
+      },
+      {
+        "synonyms": [
+          "Platform",
+          "Application",
+          "app"
+        ],
+        "value": "application"
+      },
+      {
+        "synonyms": [
+          "Level2",
+          "capability-group",
+          "level 2",
+          "capability group",
+          "l2",
+          "level-2"
+        ],
+        "value": "level2"
+      },
+      {
+        "synonyms": [
+          "CIT",
+          "commercial",
+          "comm IT"
+        ],
+        "value": "Commercial IT"
+      },
+      {
+        "synonyms": [
+          "sf",
+          "gsf",
+          "GSF IT",
+          "support fn",
+          "support functions",
+          "gs&f it",
+          "GSF",
+          "global support"
+        ],
+        "value": "G&SF IT"
+      },
+      {
+        "synonyms": [
+          "Halo",
+          "hello",
+          "allo"
+        ],
+        "value": "Hello"
+      },
+      {
+        "synonyms": [
+          "it-ops",
+          "it operations",
+          "itops",
+          "it-op",
+          "itop",
+          "operations"
+        ],
+        "value": "IT Operations"
+      },
+      {
+        "synonyms": [
+          "Function",
+          "BEF",
+          "org",
+          "Business Enablement Function"
+        ],
+        "value": "function"
+      },
+      {
+        "synonyms": [
+          "level-3",
+          "Level3",
+          "level 3",
+          "l3"
+        ],
+        "value": "level3"
+      },
+      {
+        "synonyms": [
+          "ta&d",
+          "TAD",
+          "tad"
+        ],
+        "value": "TA&D"
+      },
+      {
+        "synonyms": [
+          "level 4",
+          "activity group",
+          "l4",
+          "activity-group",
+          "level-4",
+          "Level4"
+        ],
+        "value": "level4"
+      },
+      {
+        "synonyms": [
+          "capability domain",
+          "l1",
+          "Level1",
+          "level-1",
+          "capability-domain",
+          "level 1"
+        ],
+        "value": "level1"
+      },
+      {
+        "synonyms": [
+          "BC",
+          "Capability",
+          "BCM",
+          "business",
+          "Business Capability",
+          "BCs"
+        ],
+        "value": "business capability"
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hi dost",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "hello dost",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "hey",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "howdy",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "hey there",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "hello",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "Hello",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "hi",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "good morning",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "good evening",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "dear sir",
+        "entities": [],
+        "intent": "greet"
+      },
+      {
+        "text": "tell me about yourself",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "tell me about your capability",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "who are you",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "what is your name",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "how can you help",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "what can you do for me",
+        "entities": [],
+        "intent": "info"
+      },
+      {
+        "text": "yes",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "yep",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "yeah",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "indeed",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "that's right",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "ok",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "great",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "right, thank you",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "correct",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "great choice",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "sounds really good",
+        "entities": [],
+        "intent": "affirm"
+      },
+      {
+        "text": "Where do I find more information about BCMap",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "What is BC Map",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Where is BC Map",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Business Capability?",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Pls give details about Business Capability",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "I want to know more about Business Capabilities",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Can you tell me what are Business Capabilities",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Tell me more about BCs",
+        "entities": [],
+        "intent": "BC_info"
+      },
+      {
+        "text": "Tell me BC belonging to Development IT",
+        "entities": [
+          {
+            "entity": "BEF",
+            "end": 38,
+            "start": 24,
+            "value": "Development IT"
+          },
+          {
+            "entity": "BCType",
+            "end": 10,
+            "start": 8,
+            "value": "BC"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "Find all Business Capabilities of TechOps",
+        "entities": [
+          {
+            "entity": "BEF",
+            "end": 41,
+            "start": 34,
+            "value": "TO & Quality IT"
+          },
+          {
+            "entity": "BCType",
+            "end": 30,
+            "start": 9,
+            "value": "Business Capabilities"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "Find all capabilities under TAD",
+        "entities": [
+          {
+            "entity": "BEF",
+            "end": 31,
+            "start": 28,
+            "value": "TA&D"
+          },
+          {
+            "entity": "BCType",
+            "end": 21,
+            "start": 9,
+            "value": "Business Capabilities"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "bye",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "goodbye",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "good bye",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "stop",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "end",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "farewell",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "Bye bye",
+        "entities": [],
+        "intent": "goodbye"
+      },
+      {
+        "text": "Can you give me capabilities tied to Commercial",
+        "entities": [
+          {
+            "entity": "BCType",
+            "end": 28,
+            "start": 16,
+            "value": "capabilities"
+          },
+          {
+            "entity": "BEF",
+            "end": 47,
+            "start": 37,
+            "value": "Commercial IT"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "What capabilities are owned by CIT",
+        "entities": [
+          {
+            "entity": "BCType",
+            "end": 17,
+            "start": 5,
+            "value": "capabilities"
+          },
+          {
+            "entity": "BEF",
+            "end": 34,
+            "start": 31,
+            "value": "Commercial IT"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "Give me all Capabality-Groups belonging to Commercial",
+        "entities": [
+          {
+            "entity": "BCType",
+            "end": 29,
+            "start": 12,
+            "value": "Capabality-Groups"
+          },
+          {
+            "entity": "BEF",
+            "end": 53,
+            "start": 43,
+            "value": "Commercial IT"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "L4 in Commercial",
+        "entities": [
+          {
+            "entity": "BCLevel",
+            "end": 2,
+            "start": 0,
+            "value": "L4"
+          },
+          {
+            "entity": "BEF",
+            "end": 16,
+            "start": 6,
+            "value": "Commercial IT"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "L3 in TAD",
+        "entities": [
+          {
+            "entity": "BCLevel",
+            "end": 2,
+            "start": 0,
+            "value": "L3"
+          },
+          {
+            "entity": "BEF",
+            "end": 9,
+            "start": 6,
+            "value": "TA&D"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "L2 in ITOps",
+        "entities": [
+          {
+            "entity": "BCLevel",
+            "end": 2,
+            "start": 0,
+            "value": "L2"
+          },
+          {
+            "entity": "BEF",
+            "end": 11,
+            "start": 6,
+            "value": "IT Operations"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "L1 BCs",
+        "entities": [
+          {
+            "entity": "BCLevel",
+            "end": 2,
+            "start": 0,
+            "value": "L1"
+          },
+          {
+            "entity": "BCType",
+            "end": 6,
+            "start": 3,
+            "value": "Business Capability"
+          }
+        ],
+        "intent": "BC_search"
+      },
+      {
+        "text": "Who is the lead architect for GS&F",
+        "entities": [
+          {
+            "entity": "BCOrg",
+            "end": 25,
+            "start": 11,
+            "value": "lead architect"
+          },
+          {
+            "entity": "BEF",
+            "end": 34,
+            "start": 30,
+            "value": "G&SF IT"
+          }
+        ],
+        "intent": "org_search"
+      },
+      {
+        "text": "Which organisation owns Licensing Mgmt",
+        "entities": [
+          {
+            "entity": "BCOrg",
+            "end": 18,
+            "start": 6,
+            "value": "organisation"
+          },
+          {
+            "entity": "BC",
+            "end": 38,
+            "start": 24,
+            "value": "Licensing Mgmt"
+          }
+        ],
+        "intent": "org_search"
+      },
+      {
+        "text": "Show me Trial Drug Supply Mgmt",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 30,
+            "start": 8,
+            "value": "Trial Drug Supply Mgmt"
+          }
+        ],
+        "intent": "BC_details"
+      },
+      {
+        "text": "what organisation is responsible for Transactional Legal BC",
+        "entities": [
+          {
+            "entity": "BCOrg",
+            "end": 17,
+            "start": 5,
+            "value": "organisation"
+          },
+          {
+            "entity": "BC",
+            "end": 56,
+            "start": 37,
+            "value": "Transactional Legal"
+          }
+        ],
+        "intent": "org_search"
+      },
+      {
+        "text": "what org owns Trial Execution",
+        "entities": [
+          {
+            "entity": "BCOrg",
+            "end": 8,
+            "start": 5,
+            "value": "org"
+          },
+          {
+            "entity": "BC",
+            "end": 29,
+            "start": 14,
+            "value": "Trial Execution"
+          }
+        ],
+        "intent": "org_search"
+      },
+      {
+        "text": "Is there Financial Performance Monitoring BC",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 41,
+            "start": 9,
+            "value": "Financial Performance Monitoring"
+          }
+        ],
+        "intent": "BC_details"
+      },
+      {
+        "text": "What is Capability Domain for Architecture Management BC",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 56,
+            "start": 30,
+            "value": "Architecture Management BC"
+          }
+        ],
+        "intent": "BC_details"
+      },
+      {
+        "text": "Please check if Strategic Business Planning exists",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 43,
+            "start": 16,
+            "value": "Strategic Business Planning"
+          }
+        ],
+        "intent": "BC_details"
+      },
+      {
+        "text": "Records Mgmt exists?",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 12,
+            "start": 0,
+            "value": "Records Mgmt"
+          }
+        ],
+        "intent": "BC_details"
+      },
+      {
+        "text": "What level is Collaboration Team Space Capability",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 38,
+            "start": 14,
+            "value": "Collaboration Team Space"
+          },
+          {
+            "entity": "BCLevel",
+            "end": 10,
+            "start": 5,
+            "value": "level"
+          }
+        ],
+        "intent": "BC_level"
+      },
+      {
+        "text": "level of Tax Mgmt",
+        "entities": [
+          {
+            "entity": "BCLevel",
+            "end": 5,
+            "start": 0,
+            "value": "level"
+          },
+          {
+            "entity": "BC",
+            "end": 17,
+            "start": 9,
+            "value": "Tax Mgmt"
+          }
+        ],
+        "intent": "BC_level"
+      },
+      {
+        "text": "Accounts Receivable Level?",
+        "entities": [
+          {
+            "entity": "BC",
+            "end": 19,
+            "start": 0,
+            "value": "Accounts Receivable"
+          },
+          {
+            "entity": "BCLevel",
+            "end": 25,
+            "start": 20,
+            "value": "Level"
+          }
+        ],
+        "intent": "BC_level"
+      }
+    ]
+  }
+}
